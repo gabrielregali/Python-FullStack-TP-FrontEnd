@@ -1,24 +1,145 @@
+/* Esta parte del header es para celulares*/
+@media screen and (max-width:640px) {
 html{
-    font-size: 62.5%;
-}
-
+        font-size: 62.5%;
+    }
+    
 *{
-    margin:0;
-    padding: 0;
-}
-
+        margin:0;
+        padding: 0;
+    }
 #icono_bitcoin{
-    font-size: 4.5rem;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        font-size: 1.8rem;
+        color: orange;
+    }   
+header{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 5rem;
+        background-color: whitesmoke;
+    }
+header ul{
+        display: flex;  
+    }
+    
+li{
+        margin: 0.5rem;
+        border-radius: 30%;
+        padding: 0.4rem;
+        list-style-type: none;
+        display: inline-block;
+        width: 60px;
+    }
+    
+    
+a{
+        font-family: 'Poppins', sans-serif;
+        font-size: 1.2rem;
+        color: black;
+        text-decoration: none;
+    }
+        
+a:hover{
+            color: orange;
+    }
+    
+body{
+        background-color: white;
+    } 
 }
+/* Hasta acá es el header para los celulares */
+/* **************************************************** */
 
-#color_bitcoin{
+
+/* Esta parte del header es para las tablet*/
+/* **************************************************** */
+@media screen and (max-width: 1024px) and (min-width:640px) {
+    html{
+            font-size: 62.5%;
+        }
+        
+    *{
+            margin:0;
+            padding: 0;
+        }
+    #icono_bitcoin{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        font-size: 2.2rem;
+        color: orange;
+    }
+    
+    header{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 6rem;
+        background-color: whitesmoke;
+    }
+    
+    header ul{
+        display: flex;  
+    }
+    
+    li{
+        margin: 0.5rem;
+        border-radius: 30%;
+        padding: 0.4rem;
+        list-style-type: none;
+        display: inline-block;
+        width: 90px;
+    }
+    a{
+            font-family: 'Poppins', sans-serif;
+            font-size:1.5rem;
+            color: black;
+            text-decoration: none;
+        }
+            
+    a:hover{
+                color: orange;
+        }
+        
+    body{
+            background-color: white;
+        }
+        
+    }
+    
+/* Hasta acá es el header para las tablet */
+/* **************************************************** */
+
+
+/* Esta parte del header es para las PC */
+/* **************************************************** */
+@media screen and (min-width:1024px) {
+html{
+        font-size: 62.5%;
+    }
+    
+*{
+        margin:0;
+        padding: 0;
+    }
+#icono_bitcoin{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     font-size: 3rem;
+    color: orange;
 }
 
 header{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    height: 8rem;
+    background-color: whitesmoke;
 }
 
 header ul{
@@ -30,36 +151,30 @@ li{
     border-radius: 30%;
     padding: 0.4rem;
     list-style-type: none;
-}
-
-
-a{
-    font-family: 'Poppins', sans-serif;
-    font-size:large;
-    color: black;
-    text-decoration: none;
-}
-    
-a:hover{
-        color: orange;
-}
-
-body{
-    background-color: white;
-}
-
-header{
-    background-color: whitesmoke;
-}
-
-#color_bitcoin{
-    color: #FF9933;
-}
-
-li{
     display: inline-block;
     width: 110px;
 }
+a{
+        font-family: 'Poppins', sans-serif;
+        font-size:1.8rem;
+        color: black;
+        text-decoration: none;
+    }
+        
+a:hover{
+            color: orange;
+    }
+    
+body{
+        background-color: white;
+    }
+    
+}
+
+/* Hasta acá es el header para las PC */
+/* **************************************************** */
+
+
 
 #Noticias{
     background-color: rgb(22, 53, 52);
