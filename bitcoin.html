@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title class="fa-brands fa-bitcoin fa-2x">Bitcoin</title> <!-- Titulo de la pagina web (Arriba) -->    
+    <link rel="stylesheet" href="css_bitcoin/bitcoin_styles.css">
+    <script src="https://kit.fontawesome.com/d48f6c231f.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,500,0,0" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,500,0,0" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Alumni+Sans+Collegiate+One&family=Alumni+Sans+Pinstripe&family=Poppins:wght@300&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <h2><i id="icono_bitcoin" class="fa-brands fa-bitcoin fa-2x" style="color:orange" ></i>     
+        <span id="color_bitcoin"><i>Bitcoin (BTC)</i></span></h2>
+
+    <nav>
+        <ul>
+        <li><a href="#Bitcoin_hoy">Bitcoin hoy</a></li>
+        <li><a href="#Historial_precios">Historial</a></li>
+        <li><a href="#Que_es">¿Que es?</a></li>
+        <li><a href="#Noticias">Noticias</a></li>
+        <li><a href="#Encuesta">Encuesta</a></li>
+        </ul>
+    </nav>
+    </header>
+ 
+<!-- <div id="header"></div>
+
+<div id="page">
+<div id="menu"></div>
+<div id="content"></div>
+</div>
+
+<div id="footer"></div> -->
+
+
+    <main>
+    <section id="Bitcoin_hoy" >
+        <h2><span class="material-symbols-outlined">monitoring</span> Bitcoin hoy</h2>
+            <script src="https://widgets.coingecko.com/coingecko-coin-price-chart-widget.js"></script>
+            <coingecko-coin-price-chart-widget currency="usd" coin-id="bitcoin" locale="en" height="300" width="600"></coingecko-coin-price-chart-widget>
+        <hr>
+    <section>
+        <!-- <script src="https://widgets.coingecko.com/coingecko-coin-compare-chart-widget.js"></script>
+        <coingecko-coin-compare-chart-widget  coin-ids="bitcoin,ethereum,litecoin,eos,ripple" currency="usd" locale="es"></coingecko-coin-compare-chart-widget>
+
+        <script src="https://widgets.coingecko.com/coingecko-coin-heatmap-widget.js"></script>
+        <coingecko-coin-heatmap-widget  height="400" locale="es"></coingecko-coin-heatmap-widget> -->
+    <section id="Historial_precios">
+        <h2 style="color:#ffff"><div id="titu_bit_hoy"><span class="material-symbols-outlined">currency_bitcoin</span> Historial Precios </div></h2>
+        <section id="tablas">
+            <table id="tabla">
+                <tr>
+                    <th>Fecha</th>
+                    <th>Valor U$D</th>
+                    <th>Notas</th>
+                </tr>
+                <tr>
+                    <td>Enero 2019</td>
+                    <td>0,00</td>
+                    <td>Sin intercambios o mercado</td>
+                </tr>
+                <tr>
+                    <td>Marzo 2010</td>
+                    <td>0,00</td>
+                    <td>Sin intercambios o mercado</td>
+                </tr>
+                <tr>
+                    <td>Abril 2010</td>
+                    <td>0,003</td>
+                    <td>BitcoinMarket.com es la primera casa de intercambio que comienza a operar</td>
+                </tr>
+                <tr>
+                    <td>Diciembre 2011</td>
+                    <td>2,00</td>
+                    <td>Mínimo alcanzado en diciembre tras la burbuja de junio</td>
+                </tr>
+                <tr>
+                    <td>Diciembre 2012</td>
+                    <td>13,00</td>
+                    <td>Subiendo lentamente durante un año</td>
+                </tr>
+                <tr>
+                    <td>Diciembre 2013</td>
+                    <td>600,00</td>
+                    <td>Se estabiliza en el rango de los 650 a 800 dólares</td>
+                </tr>
+                <tr>
+                    <td>Marzo 2015</td>
+                    <td>300,00</td>
+                    <td>El precio baja a principios de 2015</td>
+                </tr>
+                <tr>
+                    <td>Diciembre 2016</td>
+                    <td>979,00</td>
+                    <td>El 29 de diciembre del 2016 se alcanza el mejor precio del año</td>
+                </tr>
+                <tr>
+                    <td>Diciembre 2017</td>
+                    <td>19.783,06</td>
+                    <td>Nuevo máximo histórico</td>
+                </tr>        
+                <tr>
+                    <td>Diciembre 2018</td>
+                    <td>3.300,00</td>
+                    <td>Valor mínimo en 15 meses</td>
+                </tr>    
+                <tr>
+                    <td>Diciembre 2020</td>
+                    <td>21.444,27</td>
+                    <td>Se alcanza un nuevo máximo histórico, se supera la barrera de los $20.000</td>
+                </tr>  
+                <tr>
+                    <td>Octubre 2021</td>
+                    <td>66.000,00</td>
+                    <td>El 21 alcanza su máximo histórico superando la barrera de los $65.000</td>
+                </tr>
+                <tr>
+                    <td>Junio 2022</td>
+                    <td>20.172,00</td>
+                    <td>El 15 retrocede a precios no vistos desde noviembre del 2020</td>
+                </tr>               
+            </table>
+        <hr>
+    <section>
+
+
+    <section id="Que_es">
+        <h2><span class="material-symbols-outlined">psychology_alt</span>¿Que es Bitcoin?</h2>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/Gc2en3nHxA4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+    </section>
+
+    <section id="Noticias">
+        <h2 style="color:#edc254"><span class="material-symbols-outlined">
+            feed</span>Noticias</h2>
+        <script src="https://cointelegraph.com/news-widget" data-ct-widget-limit="5" data-ct-widget-theme="dark" data-ct-widget-priceindex="true" data-ct-widget-images="true" data-ct-widget-currency="USD" data-ct-widget-language="en"></script>       
+        <hr>
+    </section>     
+    
+    <section id="Encuesta">
+        <h2 style="color:#ffff"><span class="material-symbols-outlined">
+            list_alt
+            </span>Encuesta</h2>
+            <h3 style="color:#ffff">¿Piensa comprar bitcoins en un mediano plazo?</h3>
+            <form action="https://formspree.io/f/xnqrnlqj" method="post">
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" placeholder="ingresa tu nombre">
+                <br>
+                <label> Apellido           
+                    <input type="text" id="apellido" placeholder="ingresa tu apellido">
+                </label>
+        
+                <label > Elija Si/No:
+                    <select name="Elije">
+                        <option value="elije SI">SI</option>
+                        <option value="elije NO">NO</option>
+                        <option value="elije NS">NO SABE</option>
+                    </select>
+                </label>
+        
+                <br>
+        
+                <label>
+                    <textarea name="coments"cols="30" rows="10" placeholder="sus comentarios aqui"></textarea>
+                </label>
+                
+                <br>
+                <br>
+                <input type="submit" type="submit">
+                <input type="reset" type="reset">
+                
+            </form>
+        <hr>
+    </section>  
+        
+    </main>
+</body>
+</html>
