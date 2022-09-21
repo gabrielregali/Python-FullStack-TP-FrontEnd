@@ -1,0 +1,141 @@
+
+.color-titulos{
+    color: black;
+    font-size: 30px;
+    font-style:italic    ;
+    font-family:Verdana, Tahoma, sans-serif;
+    }
+    
+    .color-parrafos{
+    color: black ;
+    font-size: 20px;
+    font-style: italic;
+    font-family: Verdana, Tahoma, sans-serif;
+    }
+    
+    .color-cabecera-tabla{
+    color: black;
+    font-size: 30px;
+    font-style: italic;
+    font-family: Verdana, Tahoma, sans-serif;
+    }
+    
+    #style-para-h3 {
+        color: black;
+    font-size: 20px;
+    font-family: Verdana, Tahoma, sans-serif;
+    font-style: italic;
+    }
+    
+    #style-para-a{
+        background-color: #B1B3C8;
+        border: solid #B1B3C8 10px;
+        padding: 0;
+        margin: 0;
+        display: inline-block;
+        list-style: none;
+        font-style:italic    ;
+        font-family:Verdana, Tahoma, sans-serif;
+        }
+    .color-iconos{
+        color: black;
+       }
+    
+       a {
+        color: black;
+        text-decoration: none;
+       }
+    html {
+        font-size: 62.5%;
+    }
+    
+    .grid-container{
+        display: grid;
+        grid-template-columns: repeat(auto-fit,minmax(360px, 1fr)); 
+        
+        row-gap: 0.3rem;
+        column-gap: 0.3rem;
+    }
+    
+    .grid-item{
+        background-color: #C7BEBE;
+        border: 1px solid black;
+        display: grid;
+        justify-content: center;
+        align-items: center; 
+        font-size: 15px;
+    font-style: italic;
+    font-family: Verdana, Tahoma, sans-serif;
+    grid-template-columns: 150px 2fr;
+    }
+    
+    #caja-especial {
+        grid-column-start: 2;
+        grid-column-end: 4;
+    
+        grid-row-start: 2;
+        grid-row-end: 4;
+    
+    }
+    img {
+        width: 820px;
+        height: 350px;
+        display: grid;
+    }
+    .border{                                
+        background-color: #CACAD6;
+        height: 150px;
+        margin: 5px 10px 15px 20px;
+        padding: 30px;
+        border: 20px inset black;
+    }
+
+
+    .container {
+        padding: 1rem;
+        height: 130rem;
+        display: grid;
+        grid-template-areas: "cuatro uno uno"
+                             "cuatro dos dos"
+                             "cuatro tres tres"
+                             /* "cinco cinco cinco"
+                             "seis seis seis" */
+    }
+        
+
+    
+    .s1{
+
+        grid-area: uno;
+        
+        
+    }
+    
+    .s2{
+        grid-area: dos;
+        
+    }
+
+    .s3{
+
+        grid-area: tres;
+        background-color: bisque;
+    
+    }
+    
+    .s4{
+        grid-area: cuatro;
+        background-color: #C7BEBE;
+        /* height: 90vh;
+        width: 40vw; */
+    }
+
+
+    /* .s5 {
+        grid-area: cinco;
+    }
+
+    .s6{
+
+        grid-area: uno;        
+    } */
