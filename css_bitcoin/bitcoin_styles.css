@@ -8,6 +8,7 @@ html{
         margin:0;
         padding: 0;
     }
+
 #icono_bitcoin{
         display: flex;
         justify-content: space-between;
@@ -46,11 +47,193 @@ a{
 a:hover{
             color: orange;
     }
-    
-body{
-        background-color: white;
-    } 
+
+
+/*Aca empieza el main*/
+#Que_es{
+    display: flex;
+    align-items: center;
+    border-width: 1px;
+    border-color: black;
+    font-size: 1.3rem;
+    font-family: sans-serif;
+    background-color: orange;
 }
+
+
+.grid-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(360px, 1fr));
+    height: 75rem;
+}
+
+.grid-item{
+    display: grid;
+    grid-template-columns: 180px 1fr;
+    border: 1.5px solid black;
+}
+
+#video_bitcoin{
+    height: 39rem;
+    width: 48rem;
+    align-items: center;
+    background-color: rgb(244, 216, 162);
+    
+}
+
+#imagen_bitcoin{
+    padding-left: 2px;
+    padding-top: 1px;
+}
+
+#texto_bitcoin1{
+    padding-left: 2px;
+    padding-right: 2px;
+    padding-top: 5px;
+    text-align: center;
+    font-size: 1.2rem;
+    background-color: rgb(244, 216, 162);
+}
+
+
+.s1{
+    grid-area: uno;
+    width: 95vw;
+}
+
+.s2{
+    grid-area: dos;   
+    width: 95vw;
+}
+
+.s3{
+    padding-top: 20px;
+    grid-area: tres;
+    width: 95vw;
+    height: 17rem;
+}
+
+#tabla{
+    background-color: rgb(85, 99, 145);
+}
+th{
+    font-family: 'Poppins', sans-serif;
+    font-size:1.2rem;
+    color: white;
+    border:solid;
+    /* width: 45vw; */
+    text-align: center;
+}
+
+td{
+    font-family: 'Poppins', sans-serif;
+    font-size: 1rem;
+    text-align: center;
+    color: whitesmoke;
+    border: solid;
+    width: 50vw;
+}
+
+#titu_bit_hoy{
+    display: flex;
+    align-items: center;
+    background-color: rgb(46, 55, 86);
+    font-size: 1.3rem;
+    font-family: sans-serif;
+    border-style: ridge;
+}
+
+
+.container {
+    padding: 0.4rem;
+    height: 110rem;
+    display: grid;
+    grid-template-areas: "uno"
+                         "dos"
+                         "tres";
+    background-color:rgb(230, 235, 252);
+}
+
+#links1{
+    font-size: 1.3rem;
+    font-family: 'Poppins', sans-serif;
+}
+
+#links{
+    font-size: 1rem;
+    font-family: 'Poppins', sans-serif;;
+}
+
+
+#Bitcoin-hoy{
+    display: flex;
+    align-items: center;
+    border-width: 1px;
+    border-color: black;
+    font-size: 1.3rem;
+    font-family: sans-serif;
+    background-color: rgb(228, 228, 228);
+}
+
+.grid-container2{
+    display: grid;
+    align-items: center;
+    grid-template-columns: repeat(auto-fit,minmax(360px, 1fr));
+    height: 80rem;
+}
+
+.grid-item2{
+    display: grid;
+    border: 1.5px solid black;
+    background-color: rgb(255, 243, 250);
+}
+
+#texto_bitcoin{
+    padding-left: 2px;
+    padding-right: 2px;
+    padding-top: 5px;
+    text-align: center;
+    font-size: 1.2rem;
+    background-color: rgb(255, 243, 250)
+}
+
+#Noticias{
+    background-color: rgb(22, 53, 52);
+    border-width: 2px;
+}
+
+#Noticias{
+    display: flex;
+    align-items: center;
+    border-width: 1px;
+    border-color: black;
+    font-size: 1.8rem;
+    font-family: sans-serif;
+    background-color: rgb(6, 88, 61);
+}
+
+#Texto_Encuesta{
+    display: flex;
+    align-items: center;
+    border-width: 1px;
+    border-color: black;
+    font-size: 1.3rem;
+    font-family: sans-serif; 
+    background-color: orange;
+}
+
+#Encuesta{
+    padding-top: 10px;
+    padding-left: 15px;
+    padding-bottom: 10px;
+    font-size: 1.1rem;
+    font-family: 'Poppins', sans-serif;
+    background-color:rgb(252, 202, 109)
+}
+
+
+}
+
 /* Hasta acá es el header para los celulares */
 /* **************************************************** */
 
@@ -58,64 +241,244 @@ body{
 /* Esta parte del header es para las tablet*/
 /* **************************************************** */
 @media screen and (max-width: 1024px) and (min-width:640px) {
-    html{
-            font-size: 62.5%;
-        }
+html{
+    font-size: 62.5%;
+    }
         
-    *{
-            margin:0;
-            padding: 0;
-        }
-    #icono_bitcoin{
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        font-size: 2.2rem;
-        color: orange;
-    }
+*{
+    margin:0;
+    padding: 0;
+}
+#icono_bitcoin{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 2.2rem;
+    color: orange;
+}
     
-    header{
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        height: 6rem;
-        background-color: whitesmoke;
-    }
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 6rem;
+    background-color: whitesmoke;
+}
     
-    header ul{
-        display: flex;  
-    }
+header ul{
+    display: flex;  
+}
     
-    li{
-        margin: 0.5rem;
-        border-radius: 30%;
-        padding: 0.4rem;
-        list-style-type: none;
-        display: inline-block;
-        width: 90px;
-    }
-    a{
-            font-family: 'Poppins', sans-serif;
-            font-size:1.5rem;
-            color: black;
-            text-decoration: none;
-        }
+li{
+    margin: 0.5rem;
+    border-radius: 30%;
+    padding: 0.4rem;
+    list-style-type: none;
+    display: inline-block;
+    width: 90px;
+}
+a{
+    font-family: 'Poppins', sans-serif;
+    font-size:1.5rem;
+    color: black;
+    text-decoration: none;
+}
             
-    a:hover{
-                color: orange;
-        }
-        
-    body{
-            background-color: white;
-        }
-        
+a:hover{
+    color: orange;
     }
+
+/*Aca empieza el main*/
+#Que_es{
+    display: flex;
+    align-items: center;
+    border-width: 1px;
+    border-color: black;
+    font-size: 1.5rem;
+    font-family: sans-serif;
+    background-color: orange;
+}
+
+
+.grid-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(360px, 1fr));
+    height: 92rem;
+}
+
+.grid-item{
+    display: grid;
+    grid-template-columns: 180px 1fr;
+    border: 1.5px solid black;
+    background-color: rgb(244, 216, 162);
+}
+
+#video_bitcoin{
+    padding-left: 5px;
+    padding-right: 2px;
+    padding-top: 5px;
+    height: 49.5rem;
+    width: 35.3rem;
+    align-items: center;
+    
+}
+
+#imagen_bitcoin{
+    padding-left: 2px;
+    padding-top: 1px;
+}
+
+#texto_bitcoin1{
+    padding-left: 2px;
+    padding-right: 2px;
+    padding-top: 5px;
+    text-align: center;
+    font-size: 1.5rem;
+    background-color: rgb(244, 216, 162);
+}
+
+
+.s1{
+    grid-area: uno;
+    width: 95vw;
+}
+
+.s2{
+    grid-area: dos;   
+    width: 95vw;
+}
+
+.s3{
+    padding-top: 20px;
+    grid-area: tres;
+    width: 95vw;
+    height: 17rem;
+}
+
+#tabla{
+    background-color: rgb(85, 99, 145);
+}
+th{
+    font-family: 'Poppins', sans-serif;
+    font-size:1.2rem;
+    color: white;
+    border:solid;
+    /* width: 45vw; */
+    text-align: center;
+}
+
+td{
+    font-family: 'Poppins', sans-serif;
+    font-size: 1rem;
+    text-align: center;
+    color: whitesmoke;
+    border: solid;
+    width: 50vw;
+}
+
+#titu_bit_hoy{
+    display: flex;
+    align-items: center;
+    background-color: rgb(46, 55, 86);
+    font-size: 1.3rem;
+    font-family: sans-serif;
+    border-style: ridge;
+}
+
+
+.container {
+    padding: 0.4rem;
+    height: 110rem;
+    display: grid;
+    grid-template-areas: "uno"
+                         "dos"
+                         "tres";
+    background-color:rgb(230, 235, 252);
+}
+
+#links1{
+    font-size: 1.5rem;
+    font-family: 'Poppins', sans-serif;
+}
+
+#links{
+    font-size: 1.3rem;
+    font-family: 'Poppins', sans-serif;;
+}
+
+
+#Bitcoin-hoy{
+    display: flex;
+    align-items: center;
+    border-width: 1px;
+    border-color: black;
+    font-size: 1.3rem;
+    font-family: sans-serif;
+    background-color: rgb(228, 228, 228);
+}
+
+.grid-container2{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(360px, 1fr));
+    height: 73rem;
+}
+
+.grid-item2{
+    display: grid;
+    border: 1.5px solid black;
+    background-color: rgb(255, 243, 250);
+}
+
+
+#texto_bitcoin{
+    padding-left: 2px;
+    padding-right: 2px;
+    padding-top: 5px;
+    text-align: center;
+    font-size: 1.2rem;
+    background-color: rgb(255, 243, 250)
+}
+
+#Noticias{
+    background-color: rgb(22, 53, 52);
+    border-width: 2px;
+}
+
+#Noticias{
+    display: flex;
+    align-items: center;
+    border-width: 1px;
+    border-color: black;
+    font-size: 1.8rem;
+    font-family: sans-serif;
+    background-color: rgb(6, 88, 61);
+}
+
+#Texto_Encuesta{
+    display: flex;
+    align-items: center;
+    border-width: 1px;
+    border-color: black;
+    font-size: 1.3rem;
+    font-family: sans-serif; 
+    background-color: orange;
+}
+
+#Encuesta{
+    padding-top: 10px;
+    padding-left: 15px;
+    padding-bottom: 10px;
+    font-size: 1.1rem;
+    font-family: 'Poppins', sans-serif;
+    background-color:rgb(252, 202, 109)
+}
+}
     
 /* Hasta acá es el header para las tablet */
 /* **************************************************** */
 
 
-/* Esta parte del header es para las PC */
+/* Esta parte es para las PC */
 /* **************************************************** */
 @media screen and (min-width:1024px) {
 html{
@@ -166,58 +529,76 @@ a{
 a:hover{
             color: orange;
     }
-    
-body{
-        background-color: white;
-    }
-    
-}
 
-/* Hasta acá es el header para las PC */
-/* **************************************************** */
-
-
-html{
-    font-size: 62.5%;
-}
-
-*{
-    margin:0;
-    padding: 0;
-}
-
-
-#Noticias{
-    background-color: rgb(22, 53, 52);
-    border-width: 2px;
-
-}
 
 #Que_es{
-    background-color:rgb(191, 212, 210) ;
-    border-width: 2px;
-}
-
-/* #video_bitcoin{
-width: 600px;
-} */
-
+    border-width: 1px;
+    border-color: black;
+    font-size: 1.8rem;
+    font-family: sans-serif;
+    background-color: orange;
+}    
 .grid-container{
     display: grid;
     grid-template-columns: repeat(auto-fit,minmax(360px, 1fr));
+    height: 50rem;
 }
-
+    
 .grid-item{
     display: grid;
-    grid-template-columns: 150px 1fr;
+    grid-template-columns: 180px 1fr;
     border: 1.5px solid black;
+    background-color: rgb(244, 216, 162);   
+}
+    
+#video_bitcoin{
+    padding-left: 5px;
+    padding-right: 2px;
+    padding-top: 5px;
+    height: 49.5rem;
+    width: 49.5rem;
+    background-color: rgb(244, 216, 162);        
+}
+    
+#imagen_bitcoin{
+    padding-left: 2px;
+    padding-top: 1px;
+}
+    
+ #texto_bitcoin1{
+    padding-left: 2px;
+    padding-right: 2px;
+    padding-top: 5px;
+    text-align: center;
+    font-size: 1.5rem;
+    background-color: rgb(244, 216, 162);
 }
 
-
-#Encuesta{
-    background-color:orange
+.container {
+    padding: 0.4rem;
+    height: 71rem;
+    display: grid;
+    grid-template-areas: "dos uno"
+                         "dos tres";
+    background-color:rgb(230, 235, 252);
 }
 
+.s1{
+    grid-area: uno;
+    width: 47vw;
+}
+
+.s2{
+    grid-area: dos;   
+    width: 50vw;
+}
+
+.s3{
+    padding-top: 20px;
+    grid-area: tres;
+    width: 46.8vw;
+    height: 17rem;
+}
 
 th{
     font-family: 'Poppins', sans-serif;
@@ -238,33 +619,106 @@ td{
 }
 
 #titu_bit_hoy{
+    display: flex;
+    align-items: center;
     background-color: rgb(46, 55, 86);
+    font-size: 1.7rem;
+    font-family: sans-serif;
+    border-style: ridge;
 }
 
 #tabla{
     background-color: rgb(85, 99, 145);
 }
 
-.container {
-    padding: 0.4rem;
-    height: 60rem;
+
+#links1{
+    font-size: 1.7rem;
+    font-family: 'Poppins', sans-serif;
+}
+
+#links{
+    font-size: 1.5rem;
+    font-family: 'Poppins', sans-serif;;
+}
+
+#Bitcoin-hoy{
+    display: flex;
+    align-items: center;
+    border-width: 1px;
+    border-color: black;
+    font-size: 1.8rem;
+    font-family: sans-serif;
+    background-color: rgb(228, 228, 228);
+}
+
+.grid-container2{
     display: grid;
-    grid-template-areas: "dos uno"
-                         /* "tres dos dos" */
+    grid-template-columns: repeat(auto-fit,minmax(360px, 1fr));
+    height: 45rem;
+    background-color: rgb(255, 243, 250);
+}
+
+#grid-item2{
+    display: grid;
+    border: 1.5px solid black;
+    background-color: rgb(255, 243, 250);
+}
+
+
+
+#texto_bitcoin{
+    padding-left: 2px;
+    padding-right: 2px;
+    padding-top: 5px;
+    text-align: center;
+    font-size: 1.5rem;
+    background-color: rgb(255, 243, 250)
+}
+
+
+#Noticias{
+    background-color: rgb(22, 53, 52);
+    border-width: 2px;
 
 }
 
-.s1{
-    grid-area: uno;
-    width: 47vw;
+#Noticias{
+    display: flex;
+    align-items: center;
+    border-width: 1px;
+    border-color: black;
+    font-size: 1.8rem;
+    font-family: sans-serif;
+    background-color: rgb(6, 88, 61);
 }
 
-/* .s2{
-    grid-area: dos;   
-    width: 90vw;
-} */
-
-.s2{
-    grid-area: tres;   
-    width: 50vw;
+#Texto_Encuesta{
+    display: flex;
+    align-items: center;
+    border-width: 1px;
+    border-color: black;
+    font-size: 1.8rem;
+    font-family: sans-serif; 
+    background-color: orange;
 }
+
+#Encuesta{
+    padding-top: 10px;
+    padding-left: 15px;
+    padding-bottom: 10px;
+    font-size: 1.3rem;
+    font-family: 'Poppins', sans-serif;
+    background-color:rgb(252, 202, 109)
+}
+
+}
+
+
+
+
+
+
+
+
+

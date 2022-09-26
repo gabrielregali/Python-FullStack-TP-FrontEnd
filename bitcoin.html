@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title class="fa-brands fa-bitcoin fa-2x">Bitcoin</title> <!-- Titulo de la pagina web (Arriba) -->    
     <link rel="stylesheet" href="css_bitcoin/bitcoin_styles.css">
+    <link rel="stylesheet" href="css_bitcoin/animate.css">
     <script src="https://kit.fontawesome.com/d48f6c231f.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,500,0,0" />
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
@@ -25,9 +26,9 @@
 
     <nav>
         <ul>
-        <li><a href="#Bitcoin_hoy">Bitcoin hoy</a></li>
-        <li><a href="#Historial_precios">Historial</a></li>
         <li><a href="#Que_es">¿Que es?</a></li>
+        <li><a href="#Historial_precios">Historial</a></li>  
+        <li><a href="#Bitcoin hoy">Bitcoin hoy</a></li>          
         <li><a href="#Noticias">Noticias</a></li>
         <li><a href="#Encuesta">Encuesta</a></li>
         </ul>
@@ -38,36 +39,40 @@
 
 
     <main>
-
-    <section id="Que_es">
-        <h2><span class="material-symbols-outlined">psychology_alt</span>¿Que es Bitcoin?</h2>
+    <hr>
+    <section>
+        <h2 id="Que_es"><span class="material-symbols-outlined">psychology_alt</span>¿Que es Bitcoin?</h2>
     </section>
+
         <div class="grid-container">
             <div class="grid-item">
-                <img src="https:picsum.photos/120/120" alt="">
-                    <div>
-                        <h2>Proyeto Java</h2>
-                        <p>Lorem, ipsum dolor.</p>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+                
+                    <div id="texto_bitcoin1">                        
+                        <img id="imagen_bitcoin" src="../Version3/img/Bitcoin.jpg" height="150px" width="150px" alt="">
+                        <p id="texto_bitcoin1">Bitcoin es una moneda electrónica descentralizada concebida en 2009 por Satoshi Nakamoto. El nombre se aplica también al software libre diseñado por el mismo autor para su gestión y a la red P2P de la que consta.</p>
                     </div>
-  
+
+                    <div id="texto_bitcoin1">
+                        <p>Al contrario que la mayoría de las monedas, Bitcoin no depende de la confianza en ningún emisor central, sino que recurre a una base de datos distribuida en varios nodos de una red P2P para registrar las transacciones y utiliza la criptografía para proveer funciones de seguridad básicas, tales como garantizar que las bitcoins solo puedan ser gastadas por su dueño, y nunca más de una vez.</p>
+                        <p>El diseño de Bitcoin permite poseer y transferir valor en la forma potencialmente anónima. Las monedas pueden ser guardadas en cualquier ordenador en la forma de un archivo "de bolsillo", o con un tercero que ofrezca el servicio de almacenar ese archivo. En cualquiera de los casos, los bitcoins pueden ser enviados por medio de Internet a cualquiera que tenga una "dirección Bitcoin".</p>
+                        <p>Los bitcoins utilizan una llave pública criptográfica. Una moneda contiene la llave pública de su dueño. Cuando una moneda es transferida del usuario A al usuario B, A añade la llave pública de B a la moneda y luego firma esta moneda con la llave privada del usuario A. Ahora el usuario B posee la moneda y puede transferirla cuando desee. El usuario A no puede volver a transferir la misma moneda que ya transfirió a otro usuario porque la red mantiene una lista pública de manera colectiva con todas las transacciones realizadas. Antes de cada transacción se verifica la validez de cada moneda.</p>
+                    </div>
+
             </div>
 
             <div class="grid-item">
-                <iframe src="https://www.youtube.com/embed/Gc2en3nHxA4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>         
+                <iframe id="video_bitcoin" src="https://www.youtube.com/embed/Gc2en3nHxA4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>         
             </div>
 
 
         </div>
 
-
-        <!-- <script src="https://widgets.coingecko.com/coingecko-coin-heatmap-widget.js"></script>
-        <coingecko-coin-heatmap-widget  height="400" locale="es"></coingecko-coin-heatmap-widget> -->
     <hr>
     <hr>
     <section id="Historial_precios">
-        <h2 style="color:#ffff"><div id="titu_bit_hoy"><span class="material-symbols-outlined">currency_bitcoin</span> Historial Precios </div></h2>
-    
+        <h2 style="color:#ffff"><div id="titu_bit_hoy"><span class="material-symbols-outlined">monitoring</span> Historial Precios </div></h2>
+    <section>
+
     <div class="container">
         <div>
         <section class="s2"> 
@@ -140,52 +145,91 @@
                     </tr>
                     <tr>
                         <td>Junio 2022</td>
-                        <td>20.172,00</td>
-                        <td>El 15 retrocede a precios no vistos desde noviembre del 2020</td>
-                    </tr>               
+                        <td>17.622,00</td>
+                        <td>El 18 retrocede a precios no vistos desde noviembre del 2020</td>
+                    </tr>    
+                    <tr>
+                        <td>Julio 2022</td>
+                        <td>21.827,00</td>
+                        <td>El 8 precio vuelve a subir luego de un gran decaimiento</td>
+                    </tr>             
                 </table>
             </section>
         </div>       
         <section>
-
+        <br>
         <section class="s1">
             <div>
             <script src="https://widgets.coingecko.com/coingecko-coin-compare-chart-widget.js"></script>
             <coingecko-coin-compare-chart-widget  coin-ids="bitcoin,ethereum,litecoin,eos,ripple" currency="usd" locale="es"></coingecko-coin-compare-chart-widget>
             </div>
         </section>
-
+        <section class="s3">
+            <center><h2 id="links1" class="animated flash bounceInRight delay-3s">Links útiles</h2></center>
+            <center><div><a id="links"class="anim animated bounceInRight delay-4s" href="https://bitcoin.org/es/" target="_blank" >Página oficial de Bitcoin</a></div></center>
+            <center><div><a id="links" class="anim animated bounceInRight delay-4s" href="https://es.bitcoin.it/wiki/P%C3%A1gina_principal" target="_blank">Wiki de Bitcoin</a></div></center>
+            <center><div><a id="links" class="anim animated bounceInRight delay-4s" href="https://bitcoin.org/files/bitcoin-paper/bitcoin_es.pdf" target="_blank">Documentación Original</a></div></center>
+            <center><div><a id="links" class="anim animated bounceInRight delay-4s" href="https://coinmap.org/" target="_blank">Mapa de comerciantes de criptomonedas y cajeros automáticos del mundo</a></div></center>
+        
+        </section>
     </div>
 
     <hr>
     <hr>
 
+
     <section id="Bitcoin hoy" >
-        <div>
-            <h2><span class="material-symbols-outlined">monitoring</span> Bitcoin hoy</h2>
-                <script src="https://widgets.coingecko.com/coingecko-coin-price-chart-widget.js"></script>
-                <coingecko-coin-price-chart-widget currency="usd" coin-id="bitcoin" locale="en"></coingecko-coin-price-chart-widget>
-                <!-- <coingecko-coin-price-chart-widget currency="usd" coin-id="bitcoin" locale="en" height="300" width="600"></coingecko-coin-price-chart-widget> -->
+        <h2><div id="Bitcoin-hoy"><span class="material-symbols-outlined">currency_bitcoin</span> Bitcoin hoy</div> </h2>
+    <section>
+
+        <div class="grid-container2">
+            <div class="grid-item2">
+                <div id="texto_bitcoin">
+                    <h3>¿Qué impulsa el valor de Bitcoin?</h3>
+                    <p id="texto_botcoin">Varios factores le dan a Bitcoin su valor, incluyendo:</p>
+                    <p id="texto_botcoin">- Escasez: el suministro máximo de Bitcoin se ha limitado a 21 millones, lo que lo convierte en un activo inherentemente deflacionario</p>
+                    <p id="texto_botcoin">- Durabilidad: como activo digital descentralizado, Bitcoin es mucho más duradero que cualquier activo físico convencional, como el petróleo o incluso los metales preciosos.</p>
+                    <p id="texto_botcoin">- Divisibilidad: puede dividir un Bitcoin en hasta ocho decimales, lo que lo hace mucho más divisible que las monedas fiduciarias.</p>
+                    <p id="texto_botcoin">- Autenticidad: a diferencia de muchos otros activos, como el oro o la moneda fiduciaria, es extremadamente difícil (o prácticamente imposible) falsificar BTC.</p>
+                    <p id="texto_botcoin">- Portabilidad: Bitcoin (y otras monedas digitales) es probablemente el activo más portátil del mundo. Por lo tanto, siempre que tenga acceso a sus claves privadas y públicas, puede llevar consigo su reserva de Bitcoin dondequiera que vaya.</p>
+                </div>
+                <div id="texto_bitcoin">
+                    <h3>Los monederos Bitcoin más grandes</h3>
+                    <p id="texto_botcoin"><u>Satoshi Nakamoto:</u> más de 1 millón de BTC</p>
+                    <p id="texto_botcoin"><u>Cameron and Tyler Winklevoss:</u> un estimado de 70.000 BTC</p>
+                    <p id="texto_botcoin"><u>Michael J. Saylor:</u> un estimado de 17,700 BTC</p>
+                    <p id="texto_botcoin"><u>Barry Silbert:</u> posee más de 16.400 BTC.</p>
+                    <p id="texto_botcoin"><u>Tim Draper:</u> 30.000 BTC</p>
+                    <p id="texto_botcoin"><u>MicroStrategy:</u> 129.218 BTC</p>
+                    <p id="texto_botcoin"><u>Tesla:</u> 48.000 BTC</p>
+                    <p id="texto_botcoin"><u>Galaxy Digital:</u> 16.400 BTC.</p>
+                </div>
+            </div>
+        <div class="grid-item2">
+            <script src="https://widgets.coingecko.com/coingecko-coin-heatmap-widget.js"></script>
+            <coingecko-coin-heatmap-widget  height="400"locale="es"></coingecko-coin-heatmap-widget>
+        </div>
+
         </div>
         <hr>
-    <section>
+
 
     <hr>
 
-
-
     <section id="Noticias">
-        <h2 style="color:#edc254"><span class="material-symbols-outlined">
-            feed</span>Noticias</h2>
-        <script src="https://cointelegraph.com/news-widget" data-ct-widget-limit="5" data-ct-widget-theme="dark" data-ct-widget-priceindex="true" data-ct-widget-images="true" data-ct-widget-currency="USD" data-ct-widget-language="en"></script>       
-        <hr>
-    </section>     
+        <h2 style="color:#edc254"><div id="Noticias"> <span class="material-symbols-outlined">feed</span>Noticias</div></h2>
+    </section>
+    <script src="https://cointelegraph.com/news-widget" data-ct-widget-limit="5" data-ct-widget-theme="dark" data-ct-widget-priceindex="true" data-ct-widget-images="true" data-ct-widget-currency="USD" data-ct-widget-language="en"></script>       
+
+    <hr>
+    <hr>
     
+    <section>
+        <h2 style="color:#ffff"><div id="Texto_Encuesta"><span class="material-symbols-outlined">list_alt</span>Encuesta</div></h2>        
+    </section>    
     <section id="Encuesta">
-        <h2 style="color:#ffff"><span class="material-symbols-outlined">
-            list_alt
-            </span>Encuesta</h2>
-            <h3 style="color:#ffff">¿Piensa comprar bitcoins en un mediano plazo?</h3>
+            <h3 style="color:black">¿Evalúa comprar bitcoins en un mediano plazo?</h3>
+            <br>
             <form action="https://formspree.io/f/xnqrnlqj" method="post">
                 <label for="nombre">Nombre:</label>
                 <input type="text" id="nombre" placeholder="ingresa tu nombre">
@@ -214,7 +258,7 @@
                 <input type="reset" type="reset">
                 
             </form>
-        <hr>
+        
     </section>  
         
     </main>
