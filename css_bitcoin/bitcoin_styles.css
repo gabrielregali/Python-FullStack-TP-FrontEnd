@@ -244,7 +244,7 @@ footer {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 8rem;
+    height: 5rem;
     font-size: 2rem;
     background-color: whitesmoke;
 }
@@ -529,7 +529,7 @@ footer {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 8rem;
+    height: 6rem;
     font-size: 2rem;
     background-color: whitesmoke;
 }
