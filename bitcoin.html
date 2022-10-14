@@ -151,7 +151,7 @@
                     <tr>
                         <td>Julio 2022</td>
                         <td>21.827,00</td>
-                        <td>El 8 precio vuelve a subir luego de un gran decaimiento</td>
+                        <td>El 8 el precio vuelve a subir luego de un gran decaimiento</td>
                     </tr>             
                 </table>
             </section>
@@ -234,19 +234,24 @@
                 <label for="nombre">Nombre:</label>
                 <input type="text" id="nombre" placeholder="ingresa tu nombre">
                 <br>
-                <label> Apellido           
-                    <input type="text" id="apellido" placeholder="ingresa tu apellido">
-                </label>
-        
+                <label> Apellido:</label>          
+                <input type="text" id="apellido" placeholder="ingresa tu apellido">
+                
+                <br>
+                <label>Email:</label>          
+                <input type="text" id="email" placeholder="ingresa tu email">
+                
                 <label > Elija Si/No:
-                    <select name="Elije">
-                        <option value="elije SI">SI</option>
-                        <option value="elije NO">NO</option>
-                        <option value="elije NS">NO SABE</option>
+                    <select name="Elige">
+                        <option value="elige SI">SI</option>
+                        <option value="elige NO">NO</option>
+                        <option value="elige NS">NO SABE</option>
                     </select>
                 </label>
         
                 <br>
+
+
         
                 <label>
                     <textarea name="coments"cols="30" rows="10" placeholder="sus comentarios aqui"></textarea>
@@ -254,13 +259,25 @@
                 
                 <br>
                 <br>
-                <input type="submit" type="submit">
+                <input id="enviar" type="submit" type="submit">
                 <input type="reset" type="reset">
                 
             </form>
-        
     </section>  
-        
+    
+    <script src="script_bitcoin.js"></script>
     </main>
+    <hr>
+    <hr>
+
+    <footer>
+        <h2 id="icono_bitcoin2"><i  class="fa-brands fa-bitcoin fa-2x"></i>
+                <span><i style="color:rgba(34, 34, 34, 0.854);"> bitcoin</i></span></h2>
+
+        <ul>
+            <li><p id="creacion">Página web creada por Gabriel Alfredo Regali</p></li>    
+        </ul>
+    </footer>
+
 </body>
 </html>

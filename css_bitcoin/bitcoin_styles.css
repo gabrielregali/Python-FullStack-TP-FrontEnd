@@ -1,4 +1,4 @@
-/* Esta parte del header es para celulares*/
+/* Esta parte para celulares*/
 @media screen and (max-width:640px) {
 html{
         font-size: 62.5%;
@@ -13,10 +13,12 @@ html{
         display: flex;
         justify-content: space-between;
         align-items: center;
-        font-size: 1.8rem;
+        font-family: sans-serif;
+        font-size: 1.9rem;
         color: orange;
     }   
 header{
+        padding-left: 3px;
         display: flex;
         justify-content: space-between;
         align-items: center;
@@ -236,15 +238,51 @@ td{
     font-family: 'Poppins', sans-serif;
     background-color:rgb(252, 202, 109)
 }
+footer {
+    padding-left: 30px;
+    padding-right: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 8rem;
+    font-size: 2rem;
+    background-color: whitesmoke;
+}
 
+footer ul{
+    display: flex;  
+}
+
+footer li{
+    margin: 1rem;
+    border-radius: 30%;
+    padding: 0.8rem;
+    list-style-type: none;
+    display: inline-block;
+    width: 130px;
+}
+
+#creacion{
+    font-size: 1.1rem;
+    font-style: sans-serif; 
+}
+
+#icono_bitcoin2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: sans-serif;
+    font-size: 1.7rem;
+    color: orange;
+}
 
 }
 
-/* Hasta acá es el header para los celulares */
+/* Hasta acá es para los celulares */
 /* **************************************************** */
 
 
-/* Esta parte del header es para las tablet*/
+/* Esta parte para las tablet*/
 /* **************************************************** */
 @media screen and (max-width: 1024px) and (min-width:640px) {
 html{
@@ -255,22 +293,25 @@ html{
     margin:0;
     padding: 0;
 }
+
 #icono_bitcoin{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    font-family: sans-serif;
     font-size: 2.2rem;
     color: orange;
 }
     
 header{
+    padding-left: 3px;
     display: flex;
     justify-content: space-between;
     align-items: center;
     height: 6rem;
     background-color: whitesmoke;
 }
-    
+  
 header ul{
     display: flex;  
 }
@@ -289,7 +330,7 @@ a{
     color: black;
     text-decoration: none;
 }
-            
+       
 a:hover{
     color: orange;
     }
@@ -480,9 +521,48 @@ td{
     font-family: 'Poppins', sans-serif;
     background-color:rgb(252, 202, 109)
 }
+
+
+footer {
+    padding-left: 30px;
+    padding-right: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 8rem;
+    font-size: 2rem;
+    background-color: whitesmoke;
+}
+
+footer ul{
+    display: flex;  
+}
+
+footer li{
+    margin: 1rem;
+    border-radius: 30%;
+    padding: 0.8rem;
+    list-style-type: none;
+    display: inline-block;
+    width: 160px;
+}
+
+#creacion{
+    font-size: 1.3rem;
+    font-style: sans-serif; 
+}
+
+#icono_bitcoin2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: sans-serif;
+    font-size: 2.2rem;
+    color: orange;
+}
 }
     
-/* Hasta acá es el header para las tablet */
+/* Hasta acá es para las tablet */
 /* **************************************************** */
 
 
@@ -508,6 +588,7 @@ html{
 }
 
 header{
+    padding-left: 5px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -538,11 +619,13 @@ a:hover{
             color: orange;
     }
 
-
 #Que_es{
+    display: flex;
+    align-items: center;
     border-width: 1px;
     border-color: black;
     font-size: 1.8rem;
+    height: 2.8rem;
     font-family: sans-serif;
     background-color: orange;
 }    
@@ -720,6 +803,45 @@ td{
     font-size: 1.3rem;
     font-family: 'Poppins', sans-serif;
     background-color:rgb(252, 202, 109)
+}
+
+
+footer {
+    padding-left: 30px;
+    padding-right: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 8rem;
+    font-size: 2rem;
+    background-color: whitesmoke;
+}
+
+footer ul{
+    display: flex;  
+}
+
+footer li{
+    margin: 1rem;
+    border-radius: 30%;
+    padding: 0.8rem;
+    list-style-type: none;
+    display: inline-block;
+    width: 160px;
+}
+
+#creacion{
+    font-size: 1.4rem;
+    font-style: sans-serif; 
+}
+
+#icono_bitcoin2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: sans-serif;
+    font-size: 2.5rem;
+    color: orange;
 }
 
 }
