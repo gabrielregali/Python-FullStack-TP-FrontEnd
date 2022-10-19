@@ -186,7 +186,7 @@ td{
     display: grid;
     align-items: center;
     grid-template-columns: repeat(auto-fit,minmax(360px, 1fr));
-    height: 80rem;
+    height: 90rem;
 }
 
 .grid-item2{
@@ -238,6 +238,23 @@ td{
     font-family: 'Poppins', sans-serif;
     background-color:rgb(252, 202, 109)
 }
+
+#dolares{
+    text-align: center;
+    font-size: 1.6rem;
+    font-family: sans-serif; 
+    background-color: rgb(58, 57, 57);
+    height: 1.8rem;   
+}
+
+#pesos{
+    text-align: center;
+    font-size: 1.6rem;
+    font-family: sans-serif; 
+    background-color: rgb(58, 57, 57);
+    height: 1.8rem;   
+}
+
 footer {
     padding-left: 30px;
     padding-right: 30px;
@@ -468,7 +485,7 @@ td{
 .grid-container2{
     display: grid;
     grid-template-columns: repeat(auto-fit,minmax(360px, 1fr));
-    height: 73rem;
+    height: 87rem;
 }
 
 .grid-item2{
@@ -522,6 +539,21 @@ td{
     background-color:rgb(252, 202, 109)
 }
 
+#dolares{
+    text-align: center;
+    font-size: 1.8rem;
+    font-family: sans-serif; 
+    background-color: rgb(58, 57, 57);
+    height: 2rem;   
+}
+
+#pesos{
+    text-align: center;
+    font-size: 1.8rem;
+    font-family: sans-serif; 
+    background-color: rgb(58, 57, 57);
+    height: 2rem;   
+}
 
 footer {
     padding-left: 30px;
@@ -747,11 +779,11 @@ td{
 .grid-container2{
     display: grid;
     grid-template-columns: repeat(auto-fit,minmax(360px, 1fr));
-    height: 45rem;
+    height: 49.5rem;
     background-color: rgb(255, 243, 250);
 }
 
-#grid-item2{
+.grid-item2{
     display: grid;
     border: 1.5px solid black;
     background-color: rgb(255, 243, 250);
@@ -805,6 +837,21 @@ td{
     background-color:rgb(252, 202, 109)
 }
 
+#dolares{
+    text-align: center;
+    font-size: 2rem;
+    font-family: sans-serif; 
+    background-color: rgb(58, 57, 57);
+    height: 2.2rem;   
+}
+
+#pesos{
+    text-align: center;
+    font-size: 2rem;
+    font-family: sans-serif; 
+    background-color: rgb(58, 57, 57);
+    height: 2.2rem;   
+}
 
 footer {
     padding-left: 30px;
