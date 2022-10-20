@@ -18,7 +18,7 @@ async function traerPrecioBitcoinUSD(){
 
     const btcUsd= data.bitcoin.usd
     console.log("Precio bitcoin: "+btcUsd)
-    document.getElementById("dolares").textContent="Precio BTC (USD): "+btcUsd
+    document.getElementById("dolares").textContent="Precio Bitcoin (USD): "+btcUsd
     
 }
 
@@ -29,13 +29,19 @@ async function traerPrecioBitcoinARS(){
 
     const btcArs= data2.bitcoin.ars
     console.log("Precio bitcoin: "+btcArs)
-    document.getElementById("pesos").textContent="Precio BTC (ARS): "+btcArs
+    document.getElementById("pesos").textContent="Precio Bitcoin (ARS): "+btcArs
     
 }
 
-traerPrecioBitcoinUSD()
-traerPrecioBitcoinARS()
+let i=0
+if (i==0) {
+    traerPrecioBitcoinUSD()
+    traerPrecioBitcoinARS()
+    i++
+}
 
+setInterval(traerPrecioBitcoinUSD, 60000)
+setInterval(traerPrecioBitcoinARS, 60000)
 
 
 
