@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- este comentario es para todo mundo crypomonedas son el futuro -->
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+      <script src="https://kit.fontawesome.com/c11db42893.js"></script>  
+    <STYLE> TABLE,TH,TD {BORDER:SOLID;} </STYLE>
+    <link rel="stylesheet" href="styles.css"> 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anek+Telugu:wght@200&display=swap" rel="stylesheet"> 
+
+  </head>
+
+
+<body>
+ 
+    <header>
+    <H1>
+        <strong>Crypto</strong> <strong>Flash</strong>
+    </H1>
+    <hr>
+    <img src="banderaArgentina.jpg" height="50" width="50" alt="foto Bandera Argentina">
+    
+       <hr>  
+         <nav>
+     <a href="bitcoin.html" target="_blank">BITCOIN  |</a> 
+     <a href="ethereum.html" target="_blank">ETHEREUM  |</a>
+     <a href="#billeteras">BILLETERAS  |</a>     
+     <a href="# ">NOTICIAS  |</a>
+        </nav>  
+     
+     <hr>
+    
+       
+      </header>
+
+
+    <main >
+
+     <section >
+        <div class="flex-container"> 
+            <div class="flex-item">
+      
+          <h2 class="claseh2">
+        CRYPOS ORDENADAS
+            <ol type="1" >
+                <li>BITCOIN</li>
+                <li>ETHEREUM</li>
+                <li>TETHER</li>
+                <li>USD COIN</li>
+                <li>BNB</li>
+               <li>CARDANO</li>
+            </ol>
+      </h2>     
+               
+    
+
+    
+      <h2 class="claseh2">
+    
+        BILLETERAS 
+
+            <ul>
+                <li>BUENBIT</li>
+                <li>RIPIO</li>
+                <li>SATOSHITANGO</li>
+                <li>BITSO</li>
+                <li>DEFIANT</li>
+                <li>BINANCE</li>
+            </ul>
+      </h2>
+          
+    <H3>Bitcoin precio en dolares: <span id="dolares">   </span></H3>
+    <H3>Bitcoin precio en pesos: <span id="pesos">   </span></H3>
+   <br>
+   <script >
+       const api_url_usd="https://api.coingecko.com/api/v3/simple/price?ids=bitcoin&vs_currencies=usd"
+       const api_url_ars="https://api.coingecko.com/api/v3/simple/price?ids=bitcoin&vs_currencies=ars"
+
+
+   async function traerPrecioBitcoinUSD(){
+     const response = await fetch(api_url_usd)
+     const data = await response.json()
+     console.log(data)
+
+     const btcUsd= data.bitcoin.usd
+     console.log("Precio bitcoin: "+btcUsd)
+     document.getElementById("dolares").textContent=" "+btcUsd
+    
+}
+
+   async function traerPrecioBitcoinARS(){
+    const response2 = await fetch(api_url_ars)
+    const data2 = await response2.json()
+    console.log(data2)
+
+    const btcArs= data2.bitcoin.ars
+    console.log("Precio bitcoin: "+btcArs)
+    document.getElementById("pesos").textContent=" "+btcArs
+    
+}
+
+   traerPrecioBitcoinUSD()
+   traerPrecioBitcoinARS()
+       
+    </script>
+
+
+    <div id="iddiv">
+      Cripto son invercion rentable a largo plazo.
+    </div>
+    <i class="fa-brands fa-square-instagram fa-2x"></i>
+  </div>     
+</div>
+  
+</section>
+      
+    <SECTION >
+      <div class="flex-item">
+                      <H5>
+                        TABLA DE COTIZACIONES US$ DE HOY
+                      </H5>
+
+               <TABLE>
+               
+               <TR>
+                     <TH>BITCOIN</TH>
+                     <TH>ETHEREUM</TH>
+                     <TH>TETHER</TH>
+                     <TH>BNB</TH>
+               </TR> 
+               
+               <TR>
+                     <TD>24005</TD>
+                     <TD>1900</TD>
+                     <TD>1.0002</TD>
+                     <TD>316.41</TD>
+                     
+               </TR>
+            </TABLE>
+                     
+      
+    
+      
+
+        
+              
+      
+      
+      
+    <h5>Formulario:</h5>
+    
+      <form action="https://formspree.io/f/xnqrnlqj" method="post">
+
+        <label > nombre:
+                  <input type="nombre" required>      
+
+        </label>
+
+        <br>
+         <br>
+        <label > apellido:
+          <input type="apellido" required>  
+
+        </label>
+
+        <br>
+         <br>
+          <label > Elija una opcion:
+
+            <select name="">
+                      <option value="">pregunta</option>
+                      <option value="">COTIZACIONES</option>
+                      <option value="">proyecto</option>  
+
+            </select>   
+
+          </label>
+
+         <br>
+          <br>
+
+          <label > comentarios:
+
+               <textarea name="" id="" cols="20" rows="4"></textarea>
+
+          </label>
+
+          <label for="mail">Deje su email :<label>
+            <input type="email" id="mail" name="mail">
+          
+          <br>
+          <br>
+
+          <h4>que crypto le gusta mas:</h4>
+
+          <input type="radio" name="option">Bitcoin
+          <input type="radio" name="option">ETHEREUM
+          <input type="radio" name="option" >solana
+          <input type="radio" name="option" >ada
+
+          <br>
+          <br>
+          <input type="submit" name="submit">
+          <br>
+          <br>
+          
+          
+
+      </form>
+    
+    
+    </div>
+    
+    
+    </section>
+    
+    
+    
+    
+    
+   <section >
+
+       <div class="flex-item">
+
+      <iframe src="https://coin360.com/widget/map?utm_source=embed_map" frameborder="0" t
+           itle="Coin360.com: Cryptocurrency Market State" width="300" height="200"></iframe>
+   
+    
+   
+           <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3285.19688434907!2d-58.44425138538777!3d-34.57388446342592!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb5c038b67f49%3A0x400ca66948b3434!2sCdad.%20de%20La%20Paz%20353%2C%20C1426%20CABA!5e0!3m2!1ses-419!2sar!4v1660048606048!5m2!1ses-419!2sar" width="80" height="80" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+             
+  
+  
+  
+  <video src="https://www.youtube.com/watch?v=YBNr69vrscw&ab_channel=NateGentile"></video>     
+
+    <h4>  <span class="clasespan">Crypto Flash</span> es una pagina Argentina destinada a la rapida 
+       comprencion y asesoramiento para la compra  y venta de cryptomonedas 
+       desde Argentina </h4>
+
+      
+
+
+       
+
+      </div>
+      </section>
+      
+      
+      </main>
+
+        
+      
+        <footer >
+  
+  
+       <p .rem> <span class="clasespan">Crypto Flash</span> Ciudad de la pas 353 - whasapp 11653289 - @cryptoflash </p>
+      
+      
+        </footer>
+
+           <script src="script.js"></script>
+</body>
+
+
+
+</html>

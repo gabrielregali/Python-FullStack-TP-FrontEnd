@@ -1,0 +1,204 @@
+
+
+/* Esta parte del header es para celulares*/
+@media screen and (max-width:640px){
+
+html{
+    font-size: 1rem;
+}
+
+header{
+
+    display: flex;
+    background-color: black;
+    justify-content: space-between;
+    align-items: center;
+}
+}
+
+
+/* Esta parte es para las tablet*/
+
+@media screen and (max-width: 1024px) and (min-width:640px){
+
+    html{
+        font-size: 1rem;
+    }
+    
+    header{
+    
+        display: flex;
+        background-color: black;
+        justify-content: space-between;
+        align-items: center;
+    }
+    }
+
+
+/* Esta parte es para las PC */
+
+@media screen and (min-width:1024px) {
+
+
+    html{
+        font-size: 1rem;
+    }
+    
+    header{
+    
+        display: flex;
+        background-color: black;
+        justify-content: space-between;
+        align-items: center;
+    }
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    main{
+      display: flex;
+      background-color: cadetblue;
+      justify-content: space-between;
+      align-items: center;
+}
+
+
+.flex-conteiner {
+    width: 98vw;
+    height: 98vh;
+    justify-content: center;
+    background-color: seagreen; 
+}
+
+.flex-item {
+         background-color: blueviolet;   
+         width: 32vw; 
+         height: 95vh;
+}
+
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+h1 {
+    font-family: 'Anek Telugu', sans-serif;
+    color: orange;
+    font-size: 24px ; 
+    font-style: oblique;
+    animation-duration: 3s;
+    animation-name: velez;
+    animation-iteration-count: infinite;
+}
+
+@keyframes velez{
+    from{
+        color: ghostwhite;
+    }
+    to{
+        color: blue;
+    }
+
+    25% {
+        font-size: 150%;
+    }
+    50%{
+        font-size: 125%;
+
+    }
+    90% {
+        font-size: 100%;
+    }
+}
+
+
+
+
+p {
+    font-family: 'Anek Telugu', sans-serif;
+    color: blue!important;}
+
+.claseh2{ 
+    color: black;
+    font-size: 15px ; 
+    font-family: 'Anek Telugu', sans-serif;
+    font-style: unset;
+
+}
+
+#idespecial{
+    font-family: 'Anek Telugu', sans-serif;  
+    color: rgb(0, 85, 100);
+    font-size: 15px ; 
+    font-style: initial;
+
+
+}
+
+#iddiv{
+    
+    background-color:aquamarine;
+    border-color: darkred;
+    border-width: 3px;
+    border-style: solid;
+}
+
+#header{
+
+    background-color: royalblue;
+    width: 1000px;
+    height: 150px;
+    margin: 5px;
+}
+
+
+#footer{
+
+    background-color: brown;
+}
+
+
+
+
+
+.clasespan{
+    font-family: 'Anek Telugu', sans-serif;
+    color: darkgoldenrod;
+    font-size: 20px;
+}
+
+section img {
+
+            height: 1000;
+            width: 800;
+}
+
+.rem{
+    font-size: 2rem;
+}
+
+.img{
+    width: 80vw;
+    height: 30vh;
+}
+
+footer{
+
+    display: flex;
+    background-color: black;
+    align-items: center;
+}
+
+
