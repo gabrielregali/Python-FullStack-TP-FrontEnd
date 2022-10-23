@@ -72,7 +72,10 @@ Para poder realizar esto, se programó el código css con 3 puntos de corte:
   - Para visualización en PCs el contenido se encuentra distribuido en 3 cajas: 1 caja del lado izquierdo y dos cajas del lado derecho. Para tablets y celulares estas 3 cajas se apilan una debajo de la otra.
   - En la primera caja se creó una Tabla con 3 columnas, un encabezado y 14 filas.
   - En la segunda caja se linkeo un *widget* que muestra la cotización historial gráfica de bitcoin comparada con las otras criptomonedas.
-  - En la tercera caja se encuentra una sección de link útiles. Se puede acceder a estos links abriendo una nueva pestaña (utilizando *target="_blank"* en las etiquetas "a"). Estas etiquetas a poseen la animación hover. Toma estas animaciones del archivo animate.css .
+  - En la tercera caja se encuentra una sección de link útiles. Se puede acceder a estos links abriendo una nueva pestaña (utilizando *target="_blank"* en las etiquetas "a"). 
+  El título "Links útiles" tiene una **animación** por la cual aparecen las letras desde la nada. 
+  Los links de las páginas web poseen una **animación** por la cual las letras entran en pantalla desde la derecha hacia la izquierda y se sitúan en el centro. Estas etiquetas a poseen la animación hover. 
+  Todas estas animaciones se toman del archivo animate.css .
   
 ##### Sección Bitcoin hoy
 - La parte superior utiliza un icono de la página https://fontawesome.com/ y un estilo de fuente sans-serif.
