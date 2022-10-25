@@ -36,8 +36,12 @@
         list-style: none;
         font-style:italic    ;
         font-family:Verdana, Tahoma, sans-serif;
+        font-size: 15px;
         }
-    .color-iconos{
+       
+       
+       
+        .color-iconos{
         color: black;
        }
     
@@ -77,65 +81,114 @@
         grid-row-end: 4;
     
     }
-    img {
+    .img-grid {
         width: 820px;
         height: 350px;
         display: grid;
     }
-    .border{                                
+    .border{ 
         background-color: #CACAD6;
-        height: 150px;
+        height: 200px;
         margin: 5px 10px 15px 20px;
         padding: 30px;
-        border: 20px inset black;
+    border: 20px inset black;
     }
 
 
     .container {
         padding: 1rem;
-        height: 130rem;
+        height: 300vh;
         display: grid;
         grid-template-areas: "cuatro uno uno"
-                             "cuatro dos dos"
-                             "cuatro tres tres"
-                             /* "cinco cinco cinco"
-                             "seis seis seis" */
+                             "cinco dos dos"
+                             "none tres tres"
     }
-        
 
     
     .s1{
 
         grid-area: uno;
-        
+        padding: 15px;
         
     }
     
     .s2{
         grid-area: dos;
-        
-    }
-
-    .s3{
-
-        grid-area: tres;
-        background-color: bisque;
-    
+        padding: 15px;
     }
     
     .s4{
         grid-area: cuatro;
-        background-color: #C7BEBE;
-        /* height: 90vh;
-        width: 40vw; */
+        background-color: #CACAD6;
+        border-radius: 30px;
+        box-shadow: 11px 10px 5px 0px rgba(0,0,0,0.75);
+-webkit-box-shadow: 11px 10px 5px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 11px 10px 5px 0px rgba(0,0,0,0.75);
+padding: 10px;
+    }
+    .s3{
+
+        grid-area: tres;
+        
+    
     }
 
-
-    /* .s5 {
+    .s5 {
         grid-area: cinco;
+        height:20px ;
+        width: 20px;
+        padding: 15px
     }
 
-    .s6{
+    .animacion {
+        display: inline-block;
+        margin: 0 0.5rem;
+      
+        animation: bounceInRight ease infinite; /* referring directly to the animation's @keyframe declaration */
+        animation-duration: 5s; /* don't forget to set a duration! */
+        color: black;
+    font-size: 30px;
+    font-style:italic    ;
+    font-family:Verdana, Tahoma, sans-serif;
+      }
 
-        grid-area: uno;        
-    } */
+      .animacion2 {
+        display: inline-block;
+        margin: 0 0.5rem;
+      
+        animation:zoomIn ease infinite; /* referring directly to the animation's @keyframe declaration */
+        animation-duration: 5s; /* don't forget to set a duration! */
+        color: black;
+    font-size: 30px;
+    font-style:italic    ;
+    font-family:Verdana, Tahoma, sans-serif;
+      }
+
+      .img-grid-area {
+            width: 30vw ;
+            height: 80vh;
+      }
+
+      footer {
+        height: 20vh;
+        font-size: 20px;
+        border-radius: 30px;
+      }
+
+      hr {
+        border: solid black;
+    border-style:dotted;
+      }
+      
+      table , th , td {border: groove black}
+
+      header {
+        border-radius: 30px;
+      }
+
+      @media screen and (max-width: 640px) {}
+
+      @media screen and (max-width: 1024px) and (min-width:640px) {}
+      
+      @media screen and (min-width: 1024px) {}
+      
