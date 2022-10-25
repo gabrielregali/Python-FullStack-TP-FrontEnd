@@ -15,7 +15,7 @@ El código del proyecto y el informe de funcionalidad y diseño, fue realizado p
 
 - Regali, Gabriel Alfredo - DNI: 26.840.858 - Pagina web bitcoin (bitcoin.html)
 
-- Rey, Matías - DNI:    - Pagina web ethereum (ethereum.html)
+- Rey, Matías Agustín - DNI: 44.158.436 - Pagina web ethereum (ethereum.html)
 
 ## Repositorio de Github
 
@@ -43,6 +43,8 @@ En el repositorio de github se encuentran los siguientes archivos (https://githu
 
 
 ## Descripción del código del programa
+
+### Página web principal (index.html, styles.css, script.js).
 
 ### Pagina web bitcoin (bitcoin.html, bitcoin_styles.css, script_bitcoin.js)
 #### Responsive 
@@ -103,3 +105,5 @@ En el caso que no se hayan ingresado estos caracteres, aparece una ventana emerg
 #### Footer
 - Se obtuvo el icono de bitcoin de la página https://fontawesome.com/ y un estilo de fuente sans-serif.
 - Se utilizó **flex-box** para ubicar el icono y texto de bitcoin, y el autor de la página web.
+
+### Pagina web ethereum (ethereum.html, ethereum_styles.css, scripteth.js)
