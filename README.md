@@ -39,6 +39,8 @@ En el repositorio de github se encuentran los siguientes archivos (https://githu
 
 - Carpeta css_ethereum: Contiene el archivo ethereum_styles.css con el código en css correspondiente a ethereum.html
 
+- scripteth.js: Código en javascript correspondiente a ethereum.html.
+
 
 ## Descripción del código del programa
 
@@ -73,8 +75,8 @@ Para poder realizar esto, se programó el código css con 3 puntos de corte:
   - En la primera caja se creó una Tabla con 3 columnas, un encabezado y 14 filas.
   - En la segunda caja se linkeo un *widget* que muestra la cotización historial gráfica de bitcoin comparada con las otras criptomonedas.
   - En la tercera caja se encuentra una sección de link útiles. Se puede acceder a estos links abriendo una nueva pestaña (utilizando *target="_blank"* en las etiquetas "a").        
-  El título "Links útiles" tiene una **animación** por la cual aparecen las letras en el centro. 
-  Los links de las páginas web poseen una **animación** por la cual las letras entran en pantalla desde la derecha hacia la izquierda y se sitúan en el centro. Estas     etiquetas a poseen la animación hover. 
+  El título "Links útiles" tiene una **animación** por la cual las letras entran en pantalla desde la derecha hacia la izquierda (animated flash bounceInRight delay-3s).
+  Los links de las páginas web poseen una **animación** por la cual las letras aparecen (anim animated bounceInRight delay-4s). Estas etiquetas "a" poseen la animación hover. 
   Todas estas animaciones se toman del archivo animate.css .
   
 ##### Sección Bitcoin hoy
@@ -95,8 +97,8 @@ Para poder realizar esto, se programó el código css con 3 puntos de corte:
 - Esta sección posee un **formulario**, el cual envía los datos completados a la página web https://formspree.io/, mediante el método "post".
 - El bóton "Enviar" envía los datos a *formspree* mediante *submit* y el botón *reset* "limpia* el formulario.
 - Cada campo del formulario indica el dato que debe completarse mediante *placeholder*.
-- **Código javascript**: El campo *Email* posee una **validación de correo electrónico válido**. Esto se realiza mediante un código escrito en javascript (script_bitcoin.js), el cual verifica que en el correo ingresado por el usuario exista el símbolo de "@" y ".com". 
-En el caso que no se hayan ingresado estos comentarios aparece una ventana emergente indicando que no se ingreso un correo válido, y el usuario deberá confirmar para poder continuar
+- **Código javascript**: El campo *Email* posee una **validación de correo electrónico válido**. Esto se realiza mediante un código escrito en javascript (script_bitcoin.js), el cual verifica que en el campo Email el usuario haya ingresado los caracteres "@" o ".com". 
+En el caso que no se hayan ingresado estos caracteres, aparece una ventana emergente indicando que no se ingresó un correo válido, y el usuario deberá confirmar para poder continuar.
 
 #### Footer
 - Se obtuvo el icono de bitcoin de la página https://fontawesome.com/ y un estilo de fuente sans-serif.
