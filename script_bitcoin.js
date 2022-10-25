@@ -33,12 +33,8 @@ async function traerPrecioBitcoinARS(){
     
 }
 
-// let i=0
-// if (i==0) {
-    traerPrecioBitcoinUSD()
-    traerPrecioBitcoinARS()
-//     i++
-// }
+traerPrecioBitcoinUSD()
+traerPrecioBitcoinARS()
 
 setInterval(traerPrecioBitcoinUSD, 120000)
 setInterval(traerPrecioBitcoinARS, 120000)

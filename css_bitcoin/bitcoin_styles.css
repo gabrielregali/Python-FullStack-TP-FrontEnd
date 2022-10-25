@@ -186,7 +186,8 @@ td{
     display: grid;
     align-items: center;
     grid-template-columns: repeat(auto-fit,minmax(360px, 1fr));
-    height: 90rem;
+    height: 92rem;
+    background-color: rgb(255, 243, 250);
 }
 
 .grid-item2{
