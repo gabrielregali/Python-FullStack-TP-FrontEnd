@@ -1,5 +1,5 @@
 # Python-FullStack-TP-FrontEnd
-TPO Desarrollo Web HTML, CSS y Javascript
+TPO Desarrollo Web HTML, CSS y Javascript.
 
 ## Resumen
 Se desarrollaron 3 páginas web, de acuerdo a lo solicitado en las consignas del archivo PDF "TPO Desarrollo Web HTML, CSS y Javascript".
@@ -11,11 +11,11 @@ Las páginas web están programadas en lenguaje html y css, y poseen código de 
 
 ## Desarrolladores del Proyecto
 El código del proyecto y el informe de funcionalidad y diseño, fue realizado por:
-- Erasmo, Guillermo Nicolás - DNI: 23.250.179 - Pagina web principal (index.html)
+- Erasmo, Guillermo Nicolás - DNI: 23.250.179 - Página web principal (index.html)
 
-- Regali, Gabriel Alfredo - DNI: 26.840.858 - Pagina web bitcoin (bitcoin.html)
+- Regali, Gabriel Alfredo - DNI: 26.840.858 - Página web bitcoin (bitcoin.html)
 
-- Rey, Matías Agustín - DNI: 44.158.436 - Pagina web ethereum (ethereum.html)
+- Rey, Matías Agustín - DNI: 44.158.436 - Página web ethereum (ethereum.html)
 
 ## Repositorio de Github
 
@@ -44,9 +44,29 @@ En el repositorio de github se encuentran los siguientes archivos (https://githu
 
 ## Descripción del código del programa
 
-### - Página web principal (index.html, styles.css, script.js).
+### - Página web principal (index.html, styles.css, script.js) desarrollada por Erasmo, Guillermo Nicolás.
+#### Header
+- Se hizo un header para celulares, tabletas y pc, se usaron imágenes externas.
+- Además se incluyó una animacion para que el tamaño cambie constantemente y produzca una efecto visual llamativo.
+- Se creó un **menú donde se encuentran los links a las paginas Bitcoin (bitcoin.html) y Ethereum (ethereum.html).**
+- Se utilizaron también diferentes fuentes.
+- 
+#### Main
+- Se trabajó con 3 secciones utilizando Flex , se le pego a API externa coingecko para tomar precio de Bitcoin en pesos y dolares.
+- Se incluyeron iconos (ejemplo instagram), se trabajo con tablas, con listados y formularios que también se cargan en repositorios externos.
+- También se incrusta frames con cotizaciones en tiempo real de coin360, tambien se ponen frames de google con mapa de ubicacion de la empresa.
 
-### - Pagina web bitcoin (bitcoin.html, bitcoin_styles.css, script_bitcoin.js)
+- En el archivo styles.css se da total formato flex a la pagina, se la hace compatible con distintos formatos, se incluye formatos rem, 
+también se usan ID y clases.
+
+#### Footer
+- En el footer se trabaja con rem en los tamaños y también se referencia al archivo script.js donde se pone cartel de bienvenida a la página.
+
+
+<br />
+<hr />
+
+### - Pagina web bitcoin (bitcoin.html, bitcoin_styles.css, script_bitcoin.js) desarrollada por Regali, Gabriel Alfredo.
 #### Responsive 
 La pagina web bitcoin.html es **responsive**, por lo cual tiene una correcta visualización en dispositivos celulares, tablets y PCs.
 Para poder realizar esto, se programó el código css con 3 puntos de corte:
@@ -106,4 +126,7 @@ En el caso que no se hayan ingresado estos caracteres, aparece una ventana emerg
 - Se obtuvo el icono de bitcoin de la página https://fontawesome.com/ y un estilo de fuente sans-serif.
 - Se utilizó **flex-box** para ubicar el icono y texto de bitcoin, y el autor de la página web.
 
-### - Pagina web ethereum (ethereum.html, ethereum_styles.css, scripteth.js)
+<br />
+<hr />
+
+### - Pagina web ethereum (ethereum.html, ethereum_styles.css, scripteth.js) desarrollada por Rey, Matías Agustín.
