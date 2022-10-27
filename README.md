@@ -11,11 +11,11 @@ Las páginas web están programadas en lenguaje html y css, y poseen código de 
 
 ## Desarrolladores del Proyecto
 El código del proyecto y el informe de funcionalidad y diseño, fue realizado por:
-- Erasmo, Guillermo Nicolás - DNI: 23.250.179 - Página web principal (index.html)
+- **Erasmo, Guillermo Nicolás** - DNI: 23.250.179 - Página web principal (index.html)
 
-- Regali, Gabriel Alfredo - DNI: 26.840.858 - Página web bitcoin (bitcoin.html)
+- **Regali, Gabriel Alfredo** - DNI: 26.840.858 - Página web bitcoin (bitcoin.html)
 
-- Rey, Matías Agustín - DNI: 44.158.436 - Página web ethereum (ethereum.html)
+- **Rey, Matías Agustín** - DNI: 44.158.436 - Página web ethereum (ethereum.html)
 
 ## Repositorio de Github
 
