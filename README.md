@@ -50,7 +50,7 @@ En el repositorio de github se encuentran los siguientes archivos (https://githu
 - Además se incluyó una animacion para que el tamaño cambie constantemente y produzca una efecto visual llamativo.
 - Se creó un **menú donde se encuentran los links a las paginas Bitcoin (bitcoin.html) y Ethereum (ethereum.html).**
 - Se utilizaron también diferentes fuentes.
-- 
+ 
 #### Main
 - Se trabajó con 3 secciones utilizando Flex , se le pego a API externa coingecko para tomar precio de Bitcoin en pesos y dolares.
 - Se incluyeron iconos (ejemplo instagram), se trabajo con tablas, con listados y formularios que también se cargan en repositorios externos.
@@ -130,3 +130,13 @@ En el caso que no se hayan ingresado estos caracteres, aparece una ventana emerg
 <hr />
 
 ### - Pagina web ethereum (ethereum.html, ethereum_styles.css, scripteth.js) desarrollada por Rey, Matías Agustín.
+#### Header
+- Se utilizaron botones referenciados para redirigirse hacia las partes de la página, agregando un botón referencial que me lleva a Binance, mediante un link.
+
+#### Main
+- Contamos con una tabla, formulario y varios textos ordenados con grid area, colocándole estilos personalizados a las diferentes partes del html. 
+- Se agregaron iconos, y movimientos tanto en los H1 como en los iconos previamente mencionados. 
+- También contamos con un iframe que nos lleva hacia un video contando las problemáticas de ethereum. 
+
+#### Footer
+- Tiene diferentes iconos de redes sociales los cuales posteriormente tendrán links para redirigirse.
