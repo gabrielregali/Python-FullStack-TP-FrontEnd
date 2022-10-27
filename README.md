@@ -42,7 +42,7 @@ En el repositorio de github se encuentran los siguientes archivos (https://githu
 - scripteth.js: Código en javascript correspondiente a ethereum.html.
 
 
-## Descripción del código del programa
+## Descripción del código de las páginas web.
 
 ### - Página web principal (index.html, styles.css, script.js) desarrollada por Erasmo, Guillermo Nicolás.
 #### Header
